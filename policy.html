@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GhostFit — Privacy Policy</title>
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/premium.css">
+<link rel="stylesheet" href="css/design.css">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; padding: 24px; }
+  .policy-box { max-width: 800px; margin: 40px auto; background: var(--glass-strong); border: 1px solid var(--glass-border); border-radius: 24px; padding: 36px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+  h1 { font-size: 2rem; margin-top: 0; color: var(--accent); }
+  h2 { font-size: 1.3rem; margin-top: 28px; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+  p, li { color: var(--text); opacity: 0.9; }
+  .badge { display: inline-block; padding: 6px 14px; border-radius: 999px; background: rgba(20, 184, 166, 0.15); color: var(--accent); font-weight: 700; font-size: 0.85rem; margin-bottom: 14px; }
+  a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="policy-box">
+    <div class="badge">Privacy-First Architecture</div>
+    <h1>GhostFit Privacy Policy</h1>
+    <p><strong>Last Updated:</strong> November 2026</p>
+
+    <p>GhostFit ("we", "our", or "the app") is designed from the ground up with a <strong>privacy-first, on-device architecture</strong>. We believe your fitness journey and body movement data should remain completely private to you.</p>
+
+    <h2>1. Camera & Video Data</h2>
+    <p>GhostFit uses your device's camera to analyze exercise form and count repetitions in real time.</p>
+    <ul>
+      <li><strong>100% On-Device Processing:</strong> All video frames are processed locally inside your device using on-device machine learning models (WebAssembly / MediaPipe).</li>
+      <li><strong>No Recording or Storage:</strong> Video feeds are analyzed ephemerally frame-by-frame and immediately discarded. No video or images are ever recorded, saved to disk, or uploaded to any server.</li>
+      <li><strong>No Remote Transmission:</strong> No video or biometric identifiers ever leave your device.</li>
+    </ul>
+
+    <h2>2. Microphone & Audio Data</h2>
+    <p>GhostFit provides hands-free voice coaching commands and audio guidance.</p>
+    <ul>
+      <li>Voice command recognition is processed locally on your device using speech recognition APIs.</li>
+      <li>No audio recordings are collected, saved, or uploaded to any external server.</li>
+    </ul>
+
+    <h2>3. Workout Data & Local Storage</h2>
+    <p>Your workout routines, rep counts, range-of-motion metrics, and recovery logs are saved solely within your device's local storage (IndexedDB / LocalStorage). We do not require accounts, logins, or cloud databases.</p>
+
+    <h2>4. Analytics & Third Parties</h2>
+    <p>GhostFit does not sell, rent, or share personal data with third-party advertisers or data brokers. There are zero third-party tracking or advertising SDKs in the application.</p>
+
+    <h2>5. Security & Peer-to-Peer Linking</h2>
+    <p>If you choose to link a secondary phone camera via the QR code feature, coordinates are transmitted directly between your two devices over local WebRTC peer-to-peer encryption without passing through intermediary relay servers.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or our on-device privacy architecture, please contact us via our GitHub repository: <a href="https://github.com/sashwinnnn/Ghostfit">github.com/sashwinnnn/Ghostfit</a>.</p>
+  </div>
+</body>
+</html>

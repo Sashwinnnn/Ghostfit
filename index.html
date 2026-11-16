@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GhostFit — AI fitness coaching</title>
 <meta name="description" content="Privacy-first AI fitness coaching: custom workouts, on-device form tracking, voice control and 3D movement guidance.">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval' 'unsafe-eval'; connect-src 'self' https://cdn.jsdelivr.net https://storage.googleapis.com; img-src 'self' data: blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; worker-src 'self' blob:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'wasm-unsafe-eval' 'unsafe-eval'; connect-src 'self' https://cdn.jsdelivr.net http[...]">
 <meta name="referrer" content="no-referrer">
 <meta name="theme-color" content="#0e2a27">
 <link rel="stylesheet" href="css/app.css">
 <link rel="stylesheet" href="css/premium.css">
 <link rel="stylesheet" href="css/design.css">
 <link rel="stylesheet" href="css/mobile-app.css">
+<link rel="stylesheet" href="css/workout-mobile.css">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -24,9 +25,7 @@
 <div class="shell">
   <nav class="nav" aria-label="Main">
     <a class="brand" href="#/dashboard" aria-label="GhostFit home">
-      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="gfg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#62e6d2"/><stop offset="1" stop-color="#0b6e66"/></linearGradient></defs><path d="M16 3C9.4 3 5 8 5 14.5V28l3.6-3 3.6 3 3.8-3 3.8 3 3.6-3 3.6 3V14.5C27 8 22.6 3 16 3z" fill="url(#gfg)"/><circle cx="12" cy="14" r="2" fill="#ffffff"/><circle cx="20" cy="14" r="2" fill="#ffffff"/></svg>
-      <span>GhostFit</span>
-    </a>
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="gfg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#62e6d2"/><stop offset="1" stop-color="#... [body omitted by formatter?]
     <a href="#/dashboard" data-nav="dashboard"></a>
     <a href="#/workouts" data-nav="workouts"></a>
     <a href="#/builder" data-nav="builder"></a>
